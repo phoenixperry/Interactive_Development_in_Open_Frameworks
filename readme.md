@@ -74,7 +74,7 @@ While these things are often unmeasurable, you will be given a numeric score on 
 Be present. Unexcused abscesses are unacceptable as is late work. You will find I am understanding if you have real reasons for needing to miss class. However, these must be discussed with me and cannot become excessive. Just not turning up will negatively impact your grade. 
 
 #####Class Policy#####
-I require a respectful, safe and productive environment to be maintained in this classroom at all times. This classroom is a harassment free zone. There should be no disrespectful comments made around gender, sexual orientation, race, appearance, disability or religion. Beyond that, sustained disruption during presentations or lectures, online trolling of fellow students, intimidation, sexual images or general offensive behavior will not be tolerated. These things should go without stating however it is worthwhile to explicitly mention this class has a 0% harassment policy.  
+I require a respectful, safe and productive environment to be maintained in this classroom at all times. Beyond that, sustained disruption during presentations or lectures or general offensive behavior will not be tolerated. 
 
 ####Weekly breakdown####
 Week 1: Introduction to C++ and open frameworks. 
@@ -115,7 +115,9 @@ Week 9: Interfaces and play part 2. iOS
 
 Week 10: Motion Tracking and Kinect
 
-Designers of the week: Victoria Niece: <http://victorianece.com/portfolio-all/>, Phoenix Perry: <http://www.phoenixperry.com>, Heidi Bosivert <https://www.kickstarter.com/projects/810499941/radical-signs-of-life> 
+Designers of the week: Victoria Niece: <http://victorianece.com/portfolio-all/>, 
+Phoenix Perry: <http://www.phoenixperry.com>, 
+Heidi Bosivert <https://www.kickstarter.com/projects/810499941/radical-signs-of-life> 
 
 
 
