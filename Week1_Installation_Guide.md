@@ -76,8 +76,12 @@ If you sync from the github application, it will first pull the code from the re
 
 
 ## Invisible files and github 
-Git and github are actually 2 totally different things. Git is a version control system for developers. Github is a website service that stores millions of gits in a public place. Aka git is the tool and github is actually the application and website. 
-Github and your local git are linked and the link is established in an invisible .git folder. If you quit the github appllication and move the invisible. .git file, when you restart the app, it will ask you to locate the repo and relink everything for you. This is an easy way to move a git repo if you need to. However, you'll need to show invisible files to see your .git folder. 
+Git and github are actually 2 totally different things. Git is a version control system for developers that can live on any server. Github is a website service that stores millions of gits in a public place. Aka git is the tool and github is actually the application, service and website. 
+
+Github and your local git are linked and the link is established in an invisible .git folder. If you quit the github application and move a repositories invisible. .git file, when you restart the the Github applicaiton, it will ask you to locate the new folder on your computer for the repo and relink everything for you. 
+![](images/locate.png)
+
+This is an easy way to move a git repo if you need to. However, you'll need to show invisible files to see your .git folder. 
 ![](images/invisible.png)
 
 ####On a Mac 
@@ -119,7 +123,10 @@ Click the View tab.
 
 Under Advanced settings, click Show hidden files, folders, and drives, and then click OK.
 
+####Common problems 
 
+###Mac 
+On a mac 
 
 
 
