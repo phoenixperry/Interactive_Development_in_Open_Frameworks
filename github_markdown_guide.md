@@ -2,8 +2,13 @@
 
 ## Overview
 
-**Mou**, the missing Markdown editor for *web developers*.
+**NOTE** If you want to see the code for this file, open it in Mou (this is actually their guide) or Markdown Pad on windows*
 
+Mou for Mac
+<http://25.io/mou/>
+
+Markdown Pad for windows: 
+<http://markdownpad.com/>
 ### Syntax
 
 #### Strong and Emphasize 
