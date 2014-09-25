@@ -15,7 +15,7 @@ What can you make in open frameworks and why would you want to learn it?
 ###Windows: 
 1. Download Open Frameworks for windows:
 <http://openframeworks.cc/download/>
-(Sorry it's for 0.8 - should be the same as 0.84. Email me issues please! I'll work on this more later but I wanted to get something up today!)
+(This is for 0.8 - should be the same as 0.84. Email me issues please! I'll work on this more later but I wanted to get something up today!)
 
 2. Follow the open frameworks installation for visual studio guide here: 
 http://www.instructables.com/id/Getting-OpenFrameworks-080-to-work-on-Windows/step2/Fire-up-Visual-Studio-2012-Any-version-above-Expre/
