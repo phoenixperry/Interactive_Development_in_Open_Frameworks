@@ -81,7 +81,7 @@ Git and github are actually 2 totally different things. Git is a version control
 Github and your local git are linked and the link is established in an invisible .git folder. If you quit the github application and move a repositories invisible. .git file, when you restart the the Github applicaiton, it will ask you to locate the new folder on your computer for the repo and relink everything for you. 
 ![](images/locate.png)
 
-This is an easy way to move a git repo if you need to. However, you'll need to show invisible files to see your .git folder. 
+This is an easy way to move a git repo if you need to because you put it in the wrong place on your on computer. However, you'll need to show invisible files to see your .git folder. 
 ![](images/invisible.png)
 
 ####On a Mac 
@@ -115,7 +115,7 @@ Show hidden files
 
 Here's how to display hidden files and folders.
 
-Open Folder Options by clicking the Start button Picture of the Start button, clicking Control Panel, clicking Appearance and Personalization, and then clicking Folder Options.
+Open Folder Options by clicking the Start button Picture of the Start button, clicking Control Panel, clicking Appearance and Personalisation, and then clicking Folder Options.
 
 
 Click the View tab.
@@ -123,10 +123,21 @@ Click the View tab.
 
 Under Advanced settings, click Show hidden files, folders, and drives, and then click OK.
 
-####Common problems 
+#### How to create a repository for all of your openframeworks projects for this class 
 
-###Mac 
-On a mac 
+1. Open the Github application you installed. 
+2. Click on the + sign to add a new repo 
+![](images/addRepo.png)
+3. For now just create a repo anywhere. We will be moving it into the right place in our next few steps. DO NOT use spaces in your repo names. You will hate yourself later. In fact, never do this with any programming files. 
+4. Show invisible files for your system
+5. Quit the github application 
+6. Go to where you created the repo on your hard drive. For example, if you made a repo called myCode on your desktop go there. 
+7. In a separate window, open your open frameworks folder. this will be living wherever you downloaded it. 
+8. Navigate through this tree structure. Drag the invisible .git file into this folder. Notice how I have a few versions of open frameworks in my documents folder. This is totally ok! You can do this. In fact, you often will. I just appended the my folder for open frameworks to have HKU so I would know it would have my specific projects for this class. You can do this too if you want to have code that you do not want in your class repo. Just duplicate the open frameworks root folder and rename it in whatever way suits your fancy. I do suggest keeping a note on the file of which version of open frameworks is in the folder though as they do change quite often and new versions of this software often come out. 
+![](images/locationForGitFile.png) 
+
+
+####Common problems 
 
 
 
