@@ -106,7 +106,18 @@ If the above is not working for you, you may want to try switching YES/NO to TRU
 
 defaults write com.apple.Finder AppleShowAllFiles TRUE
 
+####On windows 
+Show hidden files
 
+Here's how to display hidden files and folders.
+
+Open Folder Options by clicking the Start button Picture of the Start button, clicking Control Panel, clicking Appearance and Personalization, and then clicking Folder Options.
+
+
+Click the View tab.
+
+
+Under Advanced settings, click Show hidden files, folders, and drives, and then click OK.
 
 
 
