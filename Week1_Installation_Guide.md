@@ -78,7 +78,7 @@ If you sync from the github application, it will first pull the code from the re
 ## Invisible files and github 
 Git and github are actually 2 totally different things. Git is a version control system for developers that can live on any server. Github is a website service that stores millions of gits in a public place. Aka git is the tool and github is actually the application, service and website. 
 
-Github and your local git are linked and the link is established in an invisible .git folder. If you quit the github application and move a repositories invisible. .git file, when you restart the the Github applicaiton, it will ask you to locate the new folder on your computer for the repo and relink everything for you. 
+Github and your local git are linked and the link is established in an invisible .git folder. If you quit the github application and move a repositories invisible. .git file, when you restart the the Github applicaiton, it will ask you to locate the new folder on your computer for the repo and relink everything for you. Click the locate button and navigate to the new location of the .git file in your open frameworks > apps > myapps folder and it will now reconnect.
 ![](images/locate.png)
 
 This is an easy way to move a git repo if you need to because you put it in the wrong place on your on computer. However, you'll need to show invisible files to see your .git folder. 
@@ -143,11 +143,27 @@ You will want to clone my repository for this class. To do this.
 <https://github.com/phoenixperry/Interactive_Development_in_Open_Frameworks>
 3. Clone the repo. Use this image as a reference 
 ![](images/clone.png)
+4. Every week, if you will be able to pull my new updates and get the new code and notes for the class.  
+
+#Now let's try and compile an open frameworks project! 
+1. Go to XCode or Visual studio 
+
+2. Open your project file 
+If you are on a mac: 
+From xcode go to 
+File > Open > [where you put your open frameworks build] > apps > myapps > empty example 
+![](images/path.png) 
+
+
 ####Common IDE problems 
 
 ### Mac 
+I get all kinds of poco or GLUT errors and it looks like xcode freaked out when I clicked the play (run) button. 
 1. XCode is targeting the wrong version of the mac sdk 
+![](images/wrongSDK.png) 
 
+Nothing happened! It built and no grey window opened. 
+2. You are not building the empty example project in open frameworks 
 
 
 
