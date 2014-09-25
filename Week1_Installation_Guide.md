@@ -1,5 +1,45 @@
 #Installing all of the software you need for this class 
 
+Some helpful terms from today: 
+ 
+1. IDE 
+Integrated Development Environment 
+The program that will compile all of your code files into an executable file. 
+
+2. Compiler 
+Computers cannot directly understand programming languages like C++ and Java, the must first be converted into the underlying machine language, a process called compiling.
+Your code > Compiler > Machine language
+
+What is machine language? 
+<http://simple.wikipedia.org/wiki/Machine_code>
+
+3. Memory management 
+C++ lets you manage a computer's memory directly. This process is called memory management 
+ 
+4. Open Frameworks
+
+(from <http://www.openframeworks.cc/about>)
+
+openFrameworks is an open source C++ toolkit designed to assist the creative process by providing a simple and intuitive framework for experimentation. The toolkit is designed to work as a general purpose glue, and wraps together several commonly used libraries, including:
+
+OpenGL, GLEW, GLUT, libtess2 and cairo for graphics
+rtAudio, PortAudio or FMOD and Kiss FFT for audio input, output and analysis
+FreeType for fonts
+FreeImage for image saving and loading
+Quicktime and videoInput for video playback and grabbing
+Poco for a variety of utilities
+The code is written to be massively cross-compatible. Right now we support five operating systems (Windows, OSX, Linux, iOS, Android) and four IDEs (XCode, Code::Blocks, and Visual Studio and Eclipse). The API is designed to be minimal and easy to grasp.
+
+Simply put, openFrameworks is a tool that makes it much easier to make things with code. We find it super useful, and we hope you do too.
+
+
+openFrameworks is actively developed by Zach Lieberman, Theodore Watson, and Arturo Castro, with help from the OF community. openFrameworks is indebted to two significant precursors: the Processing development environment, created by Casey Reas, Ben Fry and the Processing community; and the ACU Toolkit, a privately distributed C++ library developed by Ben Fry and others in the MIT Media Lab's Aesthetics and Computation Group.
+
+5. Git
+Git is a Version Control system that allows developers to keep versions of the code and refer to them. They can easily go back to previous versions of their own code and collaborate with other developers seamlessly.  
+
+#And now for the tricky bit
+
 You will need 3 pieces of software:
 Open Frameworks, an IDE for your computer (Visual Studio or XCode) and github.  
 
@@ -30,7 +70,7 @@ http://www.instructables.com/id/Getting-OpenFrameworks-080-to-work-on-Windows/st
 
 
 ##2. Github
-Github is a version control system that allows developers to save versions of their code and also to share their code with others. 
+Github is a collection of many hosted git projects on a website. It's got something in common with facebook and also with dropbox. You can follow other developers and also make your code public. Also, it allows developers to share code, however we are not going to cover this just yet. 
 
 Mac
 <https://mac.github.com/>
@@ -146,13 +186,19 @@ You will want to clone my repository for this class. To do this.
 4. Every week, if you will be able to pull my new updates and get the new code and notes for the class.  
 
 #Now let's try and compile an open frameworks project! 
+If this goes well, you will see a solid grey window pop up. If it works, yeah! If not, proceed to the problems section below. 
+
 1. Go to XCode or Visual studio 
 
 2. Open your project file 
+
 If you are on a mac: 
 From xcode go to 
 File > Open > [where you put your open frameworks build] > apps > myapps > empty example 
 ![](images/path.png) 
+
+If you are on windows: 
+MORE SOON 
 
 
 ####Common IDE problems 
@@ -163,8 +209,10 @@ I get all kinds of poco or GLUT errors and it looks like xcode freaked out when 
 ![](images/wrongSDK.png) 
 
 Nothing happened! It built and no grey window opened. 
-2. You are not building the empty example project in open frameworks 
+2. You are not building the empty example project in open frameworks. Change the build target. 
+![](buildChange.png)
 
-
+### Windows
+More soon here! There should be more documentation on this stuff than there is online. I'm sorry I can't just point you all somewhere but move through this 
 
 
