@@ -131,14 +131,22 @@ Under Advanced settings, click Show hidden files, folders, and drives, and then 
 3. For now just create a repo anywhere. We will be moving it into the right place in our next few steps. DO NOT use spaces in your repo names. You will hate yourself later. In fact, never do this with any programming files. 
 4. Show invisible files for your system
 5. Quit the github application 
-6. Go to where you created the repo on your hard drive. For example, if you made a repo called myCode on your desktop go there. 
+6. Go to where you created the repo on your hard drive. For example, if you made a repo called myCode on your desktop go there. Leave this window open and move to step 7.
 7. In a separate window, open your open frameworks folder. this will be living wherever you downloaded it. 
-8. Navigate through this tree structure. Drag the invisible .git file into this folder. Notice how I have a few versions of open frameworks in my documents folder. This is totally ok! You can do this. In fact, you often will. I just appended the my folder for open frameworks to have HKU so I would know it would have my specific projects for this class. You can do this too if you want to have code that you do not want in your class repo. Just duplicate the open frameworks root folder and rename it in whatever way suits your fancy. I do suggest keeping a note on the file of which version of open frameworks is in the folder though as they do change quite often and new versions of this software often come out. 
+8. Navigate through this tree structure. Drag the invisible .git file from your other open window from step 7into this folder. Notice how I have a few versions of open frameworks in my documents folder. This is totally ok! You can do this. In fact, you often will. I just appended the my folder for open frameworks to have HKU so I would know it would have my specific projects for this class. You can do this too if you want to have code that you do not want in your class repo. Just duplicate the open frameworks root folder and rename it in whatever way suits your fancy. I do suggest keeping a note on the file of which version of open frameworks is in the folder though as they do change quite often and new versions of this software often come out. 
 ![](images/locationForGitFile.png) 
 
+##### Cloning the class repository 
+You will want to clone my repository for this class. To do this. 
+1. Open your github application 
+2. Go to this Url
+<https://github.com/phoenixperry/Interactive_Development_in_Open_Frameworks>
+3. Clone the repo. Use this image as a reference 
+![](images/clone.png)
+####Common IDE problems 
 
-####Common problems 
-
+### Mac 
+1. XCode is targeting the wrong version of the mac sdk 
 
 
 
