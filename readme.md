@@ -79,6 +79,13 @@ I require a respectful, safe and productive environment to be maintained in this
 ####Weekly breakdown####
 Week 1: Introduction to C++ and open frameworks. 
  Designer of the week: Jane Friedhoff <http://www.janefriedhoff.com/>
+Homework: Set up your github account and push your homework. 
+Helpful resources beyond using the GUI that comes with github. 
+http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1
+http://readwrite.com/2013/10/02/github-for-beginners-part-2
+Use the code we created in class to create and expand on a playful interaction. 
+coding concepts: github, data types, functions, namespaces, printing to console, basic events 
+
 
 
 Week 2: Open Frameworks – events, type, images and sound. 
