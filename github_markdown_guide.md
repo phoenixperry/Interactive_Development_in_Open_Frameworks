@@ -1,6 +1,5 @@
 # Github flavored markdown guide
 
-
 ## Overview
 
 **Mou**, the missing Markdown editor for *web developers*.
