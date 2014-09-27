@@ -32,7 +32,6 @@ The code is written to be massively cross-compatible. Right now we support five 
 
 Simply put, openFrameworks is a tool that makes it much easier to make things with code. We find it super useful, and we hope you do too.
 
-
 openFrameworks is actively developed by Zach Lieberman, Theodore Watson, and Arturo Castro, with help from the OF community. openFrameworks is indebted to two significant precursors: the Processing development environment, created by Casey Reas, Ben Fry and the Processing community; and the ACU Toolkit, a privately distributed C++ library developed by Ben Fry and others in the MIT Media Lab's Aesthetics and Computation Group.
 
 5. Git
@@ -41,11 +40,10 @@ Git is a Version Control system that allows developers to keep versions of the c
 #And now for the tricky bit
 
 You will need 4 pieces of software for this class:
-Open Frameworks, an IDE for your computer (Visual Studio or XCode), github and Mou or Markdown Pad.  
+Open Frameworks, an IDE for your computer (Visual Studio or XCode), github and Mou or Markdown Pad (PC).  
 
 
 ##1. Open Frameworks 
-Open frameworks is an open source creative coding framework. It standardises many c++ libraries' syntax, such as quicktime and openCV, into a common format that's easy to read and understand.
 
 What can you make in open frameworks and why would you want to learn it? 
 ![](/images/ofInspiration.png?raw=true)
@@ -53,9 +51,9 @@ What can you make in open frameworks and why would you want to learn it?
 <http://vimeo.com/74124094>
  
 ###Windows: 
-1. follow this installation guide - you can use it for the rest of this tutorial. That said, I'd still read the helpful git terms below and skim this version. It's got all of the conceptual material. The below link is a brass tacks, very long, screen by screen process. Windows is more involved. I'm sorry now but it's just how it is. 
+1. follow this installation guide I mailed privately. 
 
-
+**That said, still read sections one and two here for concepts you will need to know. You don't need to follow any of the todos though - use the install guide for that.** 
 
 ###Mac: 
 1. Download Open Frameworks for windows: 
@@ -189,5 +187,30 @@ I get all kinds of poco or GLUT errors and it looks like xcode freaked out when 
 Nothing happened! It built and no grey window opened. 
 2. You are not building the empty example project in open frameworks. Change the build target. 
 ![](buildChange.png)
+
+#### Now install Mou. 
+Go and grab it here: 
+http://25.io/mou/
+
+Install it and read the helpful notes that open at the start. Save these somewhere for editing reference. 
+
+The way it works is you type your code on the left and it appears as it will online on the right. 
+![](mou.png)
+
+Let's create our first hello world file and push it up to github. 
+go to File > New 
+type in this code 
+`####Hello World! 
+	This is my first markdown file! `
+	
+Save it to your myApps folder as helloWorld.md. Md stands for markdodwn. 
+
+Open up github and let's commit our changes. 
+
+
+
+
+
+
 
 
