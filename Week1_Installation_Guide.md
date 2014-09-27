@@ -40,8 +40,8 @@ Git is a Version Control system that allows developers to keep versions of the c
 
 #And now for the tricky bit
 
-You will need 3 pieces of software:
-Open Frameworks, an IDE for your computer (Visual Studio or XCode) and github.  
+You will need 4 pieces of software for this class:
+Open Frameworks, an IDE for your computer (Visual Studio or XCode), github and Mou or Markdown Pad.  
 
 
 ##1. Open Frameworks 
@@ -53,11 +53,8 @@ What can you make in open frameworks and why would you want to learn it?
 <http://vimeo.com/74124094>
  
 ###Windows: 
-1. Download Open Frameworks for windows:
-<http://openframeworks.cc/download/>
-(This is for 0.8 - should be the same as 0.84. Email me issues please! I'll work on this more later but I wanted to get something up today!)
-
-2. Follow the open frameworks installation for visual studio guide coming soon! 
+1. follow this installation guide - you can use it for the rest of this tutorial. That said, I'd still read the helpful git terms below and skim this version. It's got all of the conceptual material. The below link is a brass tacks, very long, screen by screen process. Windows is more involved. I'm sorry now but it's just how it is. 
+<https://onedrive.live.com/redir?resid=36DBF9D5DEB87090!204&authkey=!AMv8r2atGYF2Gx8&ithint=onenote%2c>
 
 
 ###Mac: 
@@ -73,9 +70,6 @@ Github is a collection of many hosted git projects on a website. It's got someth
 
 Mac
 <https://mac.github.com/>
-
-Windows 
-<https://windows.github.com/> 
 
 You must create a github repository in your work in this class. 
 
@@ -149,18 +143,6 @@ If the above is not working for you, you may want to try switching YES/NO to TRU
 
 defaults write com.apple.Finder AppleShowAllFiles TRUE
 
-####On windows 
-Show hidden files
-
-Here's how to display hidden files and folders.
-
-Open Folder Options by clicking the Start button Picture of the Start button, clicking Control Panel, clicking Appearance and Personalisation, and then clicking Folder Options.
-
-
-Click the View tab.
-
-
-Under Advanced settings, click Show hidden files, folders, and drives, and then click OK.
 
 #### How to create a repository for all of your openframeworks projects for this class 
 
@@ -172,7 +154,7 @@ Under Advanced settings, click Show hidden files, folders, and drives, and then 
 5. Quit the github application 
 6. Go to where you created the repo on your hard drive. For example, if you made a repo called myCode on your desktop go there. Leave this window open and move to step 7.
 7. In a separate window, open your open frameworks folder. this will be living wherever you downloaded it. 
-8. Navigate through this tree structure. Drag the invisible .git file from your other open window from step 7into this folder. Notice how I have a few versions of open frameworks in my documents folder. This is totally ok! You can do this. In fact, you often will. I just appended the my folder for open frameworks to have HKU so I would know it would have my specific projects for this class. You can do this too if you want to have code that you do not want in your class repo. Just duplicate the open frameworks root folder and rename it in whatever way suits your fancy. I do suggest keeping a note on the file of which version of open frameworks is in the folder though as they do change quite often and new versions of this software often come out. 
+8. Navigate through this tree structure. Drag the invisible .git file from your other open window from step 7 into this folder. Notice how I have a few versions of open frameworks in my documents folder. This is totally ok! You can do this. In fact, you often will. I just appended the my folder for open frameworks to have HKU so I would know it would have my specific projects for this class. You can do this too if you want to have code that you do not want in your class repo. Just duplicate the open frameworks root folder and rename it in whatever way suits your fancy. I do suggest keeping a note on the file of which version of open frameworks is in the folder though as they do change quite often and new versions of this software often come out. 
 ![](images/locationForGitFile.png) 
 
 ##### Cloning the class repository 
@@ -196,9 +178,6 @@ From xcode go to
 File > Open > [where you put your open frameworks build] > apps > myapps > empty example 
 ![](images/path.png) 
 
-If you are on windows: 
-MORE SOON 
-
 
 ####Common IDE problems 
 
@@ -210,8 +189,5 @@ I get all kinds of poco or GLUT errors and it looks like xcode freaked out when 
 Nothing happened! It built and no grey window opened. 
 2. You are not building the empty example project in open frameworks. Change the build target. 
 ![](buildChange.png)
-
-### Windows
-More soon here! There should be more documentation on this stuff than there is online. I'm sorry I can't just point you all somewhere but move through this 
 
 
