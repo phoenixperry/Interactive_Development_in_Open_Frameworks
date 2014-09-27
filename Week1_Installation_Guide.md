@@ -206,8 +206,15 @@ type in this code
 Save it to your myApps folder as helloWorld.md. Md stands for markdodwn. 
 
 Open up github and let's commit our changes. 
-Make sure the commit and sync button is green. Match this image and select 
+Make sure the icon next to the commit and sync button is green. Match this image and fill in your own description. 
 ![](sync.png)
+
+After you've written a message, press the commit and sync button. It's now online. Go to your github account and select the file. 
+![](helloWorld.png) 
+
+This is how you will submit your final and midterm and it's also a helpful way to make notes about your projects for others to read. 
+
+That's it! 
 
 
 
