@@ -206,8 +206,8 @@ type in this code
 Save it to your myApps folder as helloWorld.md. Md stands for markdodwn. 
 
 Open up github and let's commit our changes. 
-
-
+Make sure the commit and sync button is green. Match this image and select 
+![](sync.png)
 
 
 
