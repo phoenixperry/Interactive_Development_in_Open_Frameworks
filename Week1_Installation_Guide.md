@@ -54,7 +54,7 @@ What can you make in open frameworks and why would you want to learn it?
  
 ###Windows: 
 1. follow this installation guide - you can use it for the rest of this tutorial. That said, I'd still read the helpful git terms below and skim this version. It's got all of the conceptual material. The below link is a brass tacks, very long, screen by screen process. Windows is more involved. I'm sorry now but it's just how it is. 
-<https://onedrive.live.com/redir?resid=36DBF9D5DEB87090!204&authkey=!AMv8r2atGYF2Gx8&ithint=onenote%2c>
+
 
 
 ###Mac: 
