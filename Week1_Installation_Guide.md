@@ -186,7 +186,7 @@ I get all kinds of poco or GLUT errors and it looks like xcode freaked out when 
 
 Nothing happened! It built and no grey window opened. 
 2. You are not building the empty example project in open frameworks. Change the build target. 
-![](buildChange.png)
+![](images/buildChange.png)
 
 #### Now install Mou. 
 Go and grab it here: 
@@ -195,7 +195,7 @@ http://25.io/mou/
 Install it and read the helpful notes that open at the start. Save these somewhere for editing reference. 
 
 The way it works is you type your code on the left and it appears as it will online on the right. 
-![](mou.png)
+![](images/mou.png)
 
 Let's create our first hello world file and push it up to github. 
 go to File > New 
@@ -207,10 +207,10 @@ Save it to your myApps folder as helloWorld.md. Md stands for markdodwn.
 
 Open up github and let's commit our changes. 
 Make sure the icon next to the commit and sync button is green. Match this image and fill in your own description. 
-![](sync.png)
+![](images/sync.png)
 
 After you've written a message, press the commit and sync button. It's now online. Go to your github account and select the file. 
-![](helloWorld.png) 
+![](images/helloWorld.png) 
 
 This is how you will submit your final and midterm and it's also a helpful way to make notes about your projects for others to read. 
 
