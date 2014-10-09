@@ -21,7 +21,7 @@ bool hasLostGame; /* When should we display the losing message? During the game?
                    want to display the "you lost" message IF the player has lost the game. We
                    use this boolean (true/false) as a way to keep track of whether we've lost
                    the game yet. */
-
+ 
 //--------------------------------------------------------------
 void ofApp::setup(){ // Runs once, right when our app starts.
     // Give your variables a value!
@@ -39,7 +39,7 @@ void ofApp::setup(){ // Runs once, right when our app starts.
                                       and the width of the screen, and assign that value to the
                                       enemyX. */
     enemyRadius = 30; // Initialize enemyRadius with a value
-    enemySpeed = 5; // Decide on the starting speed for the enemy (play with this!)
+    enemySpeed = 1; // Decide on the starting speed for the enemy (play with this!)
     
     score = 0; // The score should start at 0 (even if it changes later on in the game)
     
