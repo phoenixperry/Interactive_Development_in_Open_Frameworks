@@ -30,8 +30,10 @@ Now in the command prompt type `git pull` and press enter
 
 Watch as it pulls down my files. DONE! How cool was that? 
 
+
 ![](images/cool.gif)
-You can do this on the mac to so give it a go! I'll add a screen capture later. 
+
+You can do this on the mac to so give it a go!
 
 
 Because I only briefly mentioned it in class, I want to tell you how the Makey Makey is working. As it turns out you are able to conduct energy over your skin. It just travels over you. Freaky! Congratulations, you're conductive!  
