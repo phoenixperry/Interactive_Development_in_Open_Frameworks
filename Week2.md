@@ -40,7 +40,7 @@ Because I only briefly mentioned it in class, I want to tell you how the Makey M
 
 As it turn out, you are pretty resistant to electrical current. In fact, everyone has a slightly different resistance and the outside of your body has a different resistance than the inside of it. 
 
-What is resistance? It is exactly what it sounds like. If something has resistance, it resists the flow of power, slowing it down or stopping it all together if the power is not strong enough to overcome it. This is why it takes quite a bit of power to shock you and if you touch the negative and positive bits of a battery, you don't get a shock. You slow the power down so much there's very little of it left by the time it conducts across you. You don't feel it.
+What is resistance? It is exactly what it sounds like. If something has resistance, it resists the flow of current, slowing it down or stopping it all together if the power is not strong enough to overcome it. This is why it takes quite a bit of power to shock you and if you touch the negative and positive bits of a battery, you don't get a shock. You slow the power down so much there's very little of it left by the time it conducts across you. You don't feel it.
 
 ![](images/flow.jpg) 
 
