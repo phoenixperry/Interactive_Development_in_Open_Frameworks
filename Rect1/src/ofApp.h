@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "rectangle.h"
 
 class ofApp : public ofBaseApp{
 
@@ -19,4 +20,6 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+        rectangle myRectangles[10];
+        float pct;
 };
