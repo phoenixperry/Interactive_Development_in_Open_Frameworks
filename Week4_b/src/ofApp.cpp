@@ -50,7 +50,7 @@ void ofApp::update(){
 void ofApp::draw(){
     for(int i=0; i<circles.size(); i++)
     {
-        ofSetColor(circles[i].width, 255,255);
+        ofSetColor(circles.at(i).width, 255,255);
         ofFill();
         ofEllipse(circles[i].x, circles[i].y, circles[i].width, circles[i].height);
        // cout << circles[i].x << endl;
