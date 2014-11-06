@@ -5,6 +5,10 @@ Today we're going to talk about
 * The stack and the heap 
 * pointers and references.
 
+###Homework: 
+read section 6 of learncpp.com and do all of the examples for yourself. 
+<http://www.learncpp.com/> 
+
 ##Stack vs Heap
 
 So far we have seen how to declare basic type variables such as int, double, etc, and complex types such as arrays and structs.
@@ -145,3 +149,5 @@ Never deference a null pointer. It will be very, very bad.
 ###And now for what is behind the curtain. 
 Many things in oF are just classes you'll be creating instances of. 
 Many things in oF (listeners) require references and you need to understand how to use them
+
+
