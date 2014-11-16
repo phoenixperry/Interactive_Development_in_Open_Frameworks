@@ -1,0 +1,34 @@
+#pragma once
+
+#include "ofMain.h"
+
+struct Person {
+    int age;
+    string name;
+    string location;
+};
+
+class ofApp : public ofBaseApp{
+
+	public:
+		void setup();
+		void update();
+		void draw();
+		void keyPressed(int key);
+		void keyReleased(int key);
+		void mouseMoved(int x, int y );
+		void mouseDragged(int x, int y, int button);
+		void mousePressed(int x, int y, int button);
+		void mouseReleased(int x, int y, int button);
+		void windowResized(int w, int h);
+		void dragEvent(ofDragInfo dragInfo);
+		void gotMessage(ofMessage msg);
+		
+        ofArduino ard;
+        void setupArd(const int &version);
+        Person me;
+        Person you;
+        vector<Person> people;
+    
+        int num[5] = {0,1,2,3,4};
+};

@@ -28,5 +28,6 @@ void rectangle::draw() {
 void rectangle::interpolateByPct(float myPct){
     pct = powf(myPct, shaper);
     pos.x = (1-pct) * posa.x + (pct) * posb.x;
+    cout << pos.x << endl; 
     pos.y = (1-pct) * posa.y + (pct) * posb.y;
 }
