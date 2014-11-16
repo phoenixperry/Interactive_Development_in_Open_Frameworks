@@ -8,7 +8,7 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    ard.isArduinoReady();
+    ard.update();
 }
 
 //--------------------------------------------------------------
@@ -62,17 +62,27 @@ void ofApp::dragEvent(ofDragInfo dragInfo){
 }
 
 void ofApp::testLed(){
-    ard.sendDigital(9, ARD_HIGH);
+    auto vals = ard.getAnalog(0);
+      cout <<vals <<endl;
 }
 
 void ofApp::setupArd(const int &version){
     cout << "working!" << endl;
     ofRemoveListener(ard.EInitialized, this, &ofApp::setupArd);
-    //this is the output on the arduino
+    //this is the output on the arduino for an analog sensor!!! :)
     
-    ard.sendDigitalPinMode(9, ARD_OUTPUT);
-    
+    ard.sendAnalogPinReporting(0, ARD_ANALOG);  
+    ofAddListener(ard.EAnalogPinChanged, this, &ofApp::analogPinChanged);
+
     //like say you'd want to send in data instead, do this.
     //ard.sendDigitalPinMode(9, ARD_INPUT);
     cout << "up" <<endl;
 }
+
+void ofApp::analogPinChanged(const int & pinNum) {
+    
+    int value = ard.getAnalog(pinNum);
+    cout << value << endl;
+    
+}
+

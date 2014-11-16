@@ -21,6 +21,7 @@ class ofApp : public ofBaseApp{
         void setupArd(const int &version);
         void testLed();
     void setupArd();
-    ofArduino ard; 
+    ofArduino ard;
+    void analogPinChanged(const int & pinNum); 
 		
 };
