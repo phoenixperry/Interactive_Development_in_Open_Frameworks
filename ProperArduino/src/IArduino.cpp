@@ -9,7 +9,8 @@ void IArduino::setup(string port){
 
 void IArduino::update(){
 
-    cout << ard.isArduinoReady() << " is the state of things";
+    ard.isArduinoReady();
+
 }
 
 void IArduino::setupArd(const int &version)

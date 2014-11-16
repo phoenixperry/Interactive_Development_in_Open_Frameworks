@@ -20,5 +20,6 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
     
         IArduino *ard;
+  
     
 };
