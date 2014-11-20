@@ -41,7 +41,7 @@ Now, of ofApp.cpp let's add this code:
  	//the first line of code here tells arduino to connect to a port at a baud rate. 
        ard.connect("/dev/tty.usbmodem1421", 57600);
             
-	/*this second line of code adds the listener to oF. It checks every frame to see if an event called EInitialized has fired. It also needs to know what object the event should be attached to. The keyword this in programming is a pointer to the current object, in this case, the ofApp class. Next, it wants to know what function to run when the event occurs. We tell it to fire the function setupArd in the ofApp class.*/
+	/*this second line of code adds the listener to oF. It checks every frame to see if an event called EInitialized has fired. It also needs to know what object the event should be attached to. The keyword - this - in programming is a pointer to the current object, in this case, the ofApp instance. Next, it wants to know what function to run when the event occurs. We tell it to fire the function setupArd in the ofApp class.*/
 	
 	   ofAddListener(ard.EInitialized, this, &ofApp::setupArd);
 	}
