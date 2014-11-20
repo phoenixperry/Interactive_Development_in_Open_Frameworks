@@ -163,4 +163,6 @@ Right now you'll note the green box only moves down and then restarts.
 Your homework is to make is lerp back to it's original starting position verses jump back. 
 
 
+For bonus fun, check out a sketch from Zach Liberman here:
+<https://github.com/phoenixperry/Interactive_Development_in_Open_Frameworks/tree/master/Week6_Lerp_Zack> 
 
