@@ -140,6 +140,23 @@ Open up the project called `Week6_Lerp_Homework` on github.
 
 I've commented this code heavily. Read it now and try it for yourself. 
 
+Note there is a commented out additional thing you can do with a group of circles! Up to you if you want to try it second after you get a SINGLE thing actually lerping. 
+
+What does lerp stand for? Linear Interpolation 
+
+
+> It is a method of approximating the roots of a transcendental or algebraic equation f(x) = 0.
+> 
+> The essence of the method of linear interpolation consists in the following. Starting with two values x0 and x1 that are close to the root α and at which the values of the function f(x) have opposite signs, we take as the next approximate value x2 of the root α the point of intersection of the line passing through the points (x0, f(x0)) and (x1, f(x1)) and the x-axis (see Figure 1).
+
+<http://encyclopedia2.thefreedictionary.com/Lerp+%28computing%29>
+
+> ![](images/pleaseDearGodMath.png) 
+![](images/run.gif) 
+
+This is one of those times where math should just be shown as code because it's a whole ton easier to understand. Go try the code for yourself. Print out the values -- it will make sense. Promise this is one of those things that looks way scarier than it actually is. You just slowly go between one value to another through in a very simple line of code. 
+
+
 
 ####Assignment: 
 Right now you'll note the green box only moves down and then restarts. 
