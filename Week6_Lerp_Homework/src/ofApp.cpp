@@ -1,24 +1,31 @@
 
 #include "ofApp.h"
-struct Circle{
-    int x;
-    int y;
-    float speed;
-
-};
-vector <Circle> myCircles;
+//this circle stuff will just make a collection of lerping objects. Uncomment it if you want more examples! 
+//struct Circle{
+//    int x;
+//    int y;
+//    float speed;
+//
+//};
+//a collection of circles.
+//vector <Circle> myCircles;
 
 class Rect_2{
 public:
+    //variable for current position
     ofPoint pos;
+    //variable for start point
     ofPoint posa;
+    //variable for ending point
     ofPoint posb;
+    //some shaping for the motion
     float shaper;
+    //the percent we want to move each frame.
     float pct;
     Rect_2(){
         shaper= 1.0;
     }
-    
+    //a class lerp function. What we do here is that as point a becomes a lower value, point b will become larger. We'll just move along this shift in values. We'll apply the shaper to our percent of motion each frame. In this case because we are using a power function, it will speed up and change based on the mathmatical relationship here.
     void interp(float myPct){
         pct = powf(myPct, shaper);
         pos.x = (1-pct)* posa.x + (pct) *posb.x;
@@ -47,15 +54,15 @@ void ofApp::setup(){
     myRect.shaper= 0.2;
     myRect.interp(0);
     pct = 0;
-    
-    for(int i =0; i <10; i++)
-    {
-        Circle c;
-        c.x = i*10;
-        c.y = i*10;
-        c.speed = .5*i;
-        myCircles.push_back(c);
-    }
+ //this is just a collection of objects for fun. Uncomment if you wish.
+//    for(int i =0; i <10; i++)
+//    {
+//        Circle c;
+//        c.x = i*10;
+//        c.y = i*10;
+//        c.speed = .5*i;
+//        myCircles.push_back(c);
+//    }
     
 }
 

@@ -2,6 +2,8 @@
 
 Topics: Listeners, pointers and Lerping. 
 
+**Note the homework assignment is at the end of this set of notes**
+
 ###Using Arduino with listeners. 
 So far we have used Arduino in an inefficient way. This method has been depreciated in the offical Arduino spec and we are going to update to the proper way to implement the code today. 
 
@@ -131,7 +133,17 @@ Yeah! All of that was horrifically dull. I'm like so bored right now. Let's make
 ####Lerping is awesome. 
 Lerping is making objects on screen appear to move more naturally. For example, perhaps we start out slow, speed up and then slow down before we reach our target. We are doing to do this now! 
 
-To do so we are going to use a bit of code that I really like from Zach Liberman. 
+
+Open up the project called `Week6_Lerp_Homework` on github. 
+<https://github.com/phoenixperry/Interactive_Development_in_Open_Frameworks/tree/master/Week6_Lerp_Homework>
+
+
+I've commented this code heavily. Read it now and try it for yourself. 
+
+
+####Assignment: 
+Right now you'll note the green box only moves down and then restarts. 
+Your homework is to make is lerp back to it's original starting position verses jump back. 
 
 
 
