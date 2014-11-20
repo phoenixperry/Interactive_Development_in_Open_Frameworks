@@ -9,8 +9,13 @@ Topics: Getting analog data from Arduino, Sound generation and the ofxTonic add 
 Assignment: Get caught up if you're behind and work on your final project for my class. If you have a mac, you can play with ofxTonic 
 
 
-Today we are going to make this: 
-<http://youtu.be/NTr59In6z5k> 
+Today we are going to make the electronics in this: 
+
+<https://drive.google.com/file/d/0B6F-w7wii4Dlcmp0VkxXVGtZVGM/view?usp=sharing>
+
+More specifically, we are going to make a version with just one sensor: 
+
+https://vimeo.com/112406019
 
 It's a light sculpture you can play with a flashlight. The brighter the light on it, the higher the synth notes oF will play.  
 
