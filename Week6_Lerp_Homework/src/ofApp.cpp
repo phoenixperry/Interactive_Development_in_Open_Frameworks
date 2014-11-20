@@ -1,6 +1,6 @@
 
 #include "ofApp.h"
-//this circle stuff will just make a collection of lerping objects. Uncomment it if you want more examples! 
+//this circle stuff will just make a collection of lerping objects. Uncomment it if you want more examples!
 //struct Circle{
 //    int x;
 //    int y;
@@ -72,21 +72,21 @@ void ofApp::update(){
     if(pct >1) pct = 0;
     myRect.interp(pct);
     
-    for(int i =0; i < myCircles.size(); i++)
-    {
-        myCircles.at(i).x += myCircles.at(i).speed;
-    }
+//    for(int i =0; i < myCircles.size(); i++)
+//    {
+//        myCircles.at(i).x += myCircles.at(i).speed;
+//    }
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
     ofSetColor(20,255,10);
     myRect.draw();
-    for(int i =0; i < myCircles.size(); i++)
-    {
-        
-        ofEllipse(myCircles.at(i).x, myCircles.at(i).y, 50, 50);
-    }
+//    for(int i =0; i < myCircles.size(); i++)
+//    {
+//        
+//        ofEllipse(myCircles.at(i).x, myCircles.at(i).y, 50, 50);
+//    }
 
 }
 
