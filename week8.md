@@ -30,4 +30,5 @@ All of today's lectures can be watched online here:
 Watch videos 1.1 - 1.6
 
 You will need to convert these ideas to open frameworks for yourself.  The code here for the week should really get you started. 
+<https://github.com/phoenixperry/Interactive_Development_in_Open_Frameworks/tree/master/week8>
 
